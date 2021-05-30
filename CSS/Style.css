@@ -29,6 +29,9 @@ header nav ul {
 .outerContainer {
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
 }
 
 .aboutMe, .work {
@@ -73,9 +76,9 @@ header nav ul {
 .card {
     flex-grow: 1;
     margin: 10px;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: black; */
 }
 
 .card-1 {
@@ -86,9 +89,25 @@ header nav ul {
     width: 47%;
 }
 
+.card Img {
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.cardLabel {
+    position: relative;
+    bottom: 50px;
+    background-color: red;
+    width: fit-content;
+}
+
 footer {
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .contactMe {
@@ -99,7 +118,7 @@ footer {
     border-style: solid;
     font-size: 25px;
     text-align: end;
-}
+ }
 
 footer nav {
     flex-grow: 1;
