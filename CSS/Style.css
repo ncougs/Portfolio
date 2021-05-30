@@ -1,5 +1,5 @@
 :root {
-    --headingSize: 25px;
+    --headingSize: 50pt;
     --headingColor: blue;
 }
 
@@ -43,11 +43,12 @@ header nav ul {
     flex: 1;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
-.aboutMe h2 {
-    flex-grow: 1;
-    width: 40px;
+.aboutMe h2, .work h2, .contactMe {
+    width: 16%;
+    padding-right: 20px;
     border-right: 1px;
     border-color: black;
     border-style: solid;
@@ -58,23 +59,13 @@ header nav ul {
 
 .aboutMe p {
     flex-grow: 1;
-    width: 60%;
-}
-
-.work h2 {
-    flex-grow: 1;
-    width: 40px;
-    border-right: 1px;
-    border-color: black;
-    border-style: solid;
-    font-size: var(--headingSize);
-    color: var(--headingColor);
-    text-align: end;
+    width: 70%;
+    line-height: 20pt;
 }
 
 .outerCardContainer {
     flex-grow: 1;
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -112,28 +103,18 @@ footer {
     flex-direction: row;
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 20px;
 }
-
-.contactMe {
-    flex-grow: 1;
-    width: 40px;
-    border-right: 1px;
-    border-color: black;
-    border-style: solid;
-    font-size: var(--headingSize);
-    color: var(--headingColor);
-    text-align: end;
- }
 
 footer nav {
     flex-grow: 1;
-    width: 60%;
+    width: 70%;
 }
 
 footer nav ul {
     display: flex;
     justify-content: space-between;
-  }
+}
 
 
 
