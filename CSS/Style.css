@@ -1,3 +1,8 @@
+:root {
+    --headingSize: 25px;
+    --headingColor: blue;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -46,7 +51,8 @@ header nav ul {
     border-right: 1px;
     border-color: black;
     border-style: solid;
-    font-size: 25px;
+    font-size: var(--headingSize);
+    color: var(--headingColor);
     text-align: end;
 }
 
@@ -61,7 +67,8 @@ header nav ul {
     border-right: 1px;
     border-color: black;
     border-style: solid;
-    font-size: 25px;
+    font-size: var(--headingSize);
+    color: var(--headingColor);
     text-align: end;
 }
 
@@ -76,9 +83,6 @@ header nav ul {
 .card {
     flex-grow: 1;
     margin: 10px;
-    /* border-style: solid;
-    border-width: 2px;
-    border-color: black; */
 }
 
 .card-1 {
@@ -116,7 +120,8 @@ footer {
     border-right: 1px;
     border-color: black;
     border-style: solid;
-    font-size: 25px;
+    font-size: var(--headingSize);
+    color: var(--headingColor);
     text-align: end;
  }
 
