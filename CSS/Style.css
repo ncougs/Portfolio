@@ -1,0 +1,120 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header div {
+    flex-grow: 3;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+.hero {
+    height: 400px;
+    width: 100%;
+    background-image: url("../Images/rolling-waves.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe, .work {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe h2 {
+    flex-grow: 1;
+    width: 40px;
+    border-right: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 25px;
+    text-align: end;
+}
+
+.aboutMe p {
+    flex-grow: 1;
+    width: 60%;
+}
+
+.work h2 {
+    flex-grow: 1;
+    width: 40px;
+    border-right: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 25px;
+    text-align: end;
+}
+
+.outerCardContainer {
+    flex-grow: 1;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-grow: 1;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.card-1 {
+    width: 97%;
+}
+
+.card-2, .card-3, .card-4, .card-5 {
+    width: 47%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactMe {
+    flex-grow: 1;
+    width: 40px;
+    border-right: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 25px;
+    text-align: end;
+}
+
+footer nav {
+    flex-grow: 1;
+    width: 60%;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+
+
