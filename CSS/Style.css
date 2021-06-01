@@ -1,6 +1,14 @@
 :root {
     --headingSize: 50pt;
-    --headingColor: blue;
+    --headingColor: #1D2228;
+}
+
+*{
+    Font-family:'Rubik', sans-serif;
+}
+
+body {
+    background-color: #F6F4F2;
 }
 
 header {
@@ -8,15 +16,33 @@ header {
     flex-direction: row;
     position: fixed;
     width: 100%;
-    background: white;
+    height: 80px;
+    align-items: center;
+    background-color: #425664;
+    z-index: 2;
+    Font-family:'Rubik', sans-serif;
+    padding-left: 50px;
+    padding-right: 150px;
 }
 
 header div {
     flex-grow: 3;
+    padding-left: 30px;
+}
+
+header div a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: var(--headingSize);
+    color: white;
+    font-weight: bold;
 }
 
 header nav {
     flex-grow: 1;
+    padding-right: 60px;
 }
 
 header nav ul {
@@ -24,6 +50,11 @@ header nav ul {
     justify-content: space-between;
     padding: 10px;
   }
+
+a {
+    color: white;
+    font-size: 15pt;
+}
 
 .hero {
     height: 400px;
@@ -37,7 +68,7 @@ header nav ul {
 .outerContainer {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-right: 200px;
     margin-top: 30px;
 }
@@ -50,13 +81,14 @@ header nav ul {
 }
 
 .aboutMe h2, .work h2, .contactMe {
-    width: 16%;
+    width: 30%;
     padding-right: 20px;
     border-right: 1px;
     border-color: black;
     border-style: solid;
     font-size: var(--headingSize);
     color: var(--headingColor);
+    font-weight: bold;
     text-align: end;
 }
 
@@ -64,6 +96,7 @@ header nav ul {
     flex-grow: 1;
     width: 70%;
     line-height: 20pt;
+    padding-left: 20px;
 }
 
 .outerCardContainer {
@@ -72,6 +105,7 @@ header nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 20px;
 }
 
 .card {
@@ -110,28 +144,56 @@ header nav ul {
 footer {
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-right: 200px;
     margin-top: 20px;
+    Font-family:'Rubik', sans-serif;
+    align-items: center;
 }
 
 footer nav {
     flex-grow: 1;
     width: 70%;
-    padding: 60px;
-}
+    padding-left: 20px;
+  }
 
 footer nav ul {
     display: flex;
     justify-content: space-between;
 }
 
+footer a {
+    color: #1D2228;
+}
+
 @media screen and (max-width: 992px){
     .aboutMe, .work, footer, header, header nav ul, footer nav ul{
         flex-direction: column;
         align-items: center;
+        height: max-content;
     }
 }
+
+@media screen and (max-width: 992px){
+    .outerContainer, footer {
+        align-items: center;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    header, header nav, footer div, footer nav {
+       padding-left: 0%;
+       padding-right: 0%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    header li, footer li{
+      padding-bottom: 10px;
+    }
+}
+
 
 @media screen and (max-width: 992px){
     .work, footer{
