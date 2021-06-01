@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="CSS/Reset.css">
         <link rel="stylesheet" href="CSS/Style.css">
+        <title>Personal Portfolio</title>
     </head>
 
     <body>
 
         <header>
             <div>
-                <h1>Portfolio Header</h1>
+                <a href="#top">
+                    <h1>Portfolio Header</h1>
+                </a>
             </div>
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Work</li>
-                    <li>Contact Me</li>
-                    <li>Resume</li>
+                    <li><a href="#About-Me">About Me</a></li>
+                    <li><a href="#card-1">Work</a></li>
+                    <li><a href="#Contact-Me">Contact Me</a></li>
+                    <li><a href="https://github.com/ncougs" target="_blank">Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -28,7 +31,7 @@
 
             <div class="outerContainer">
 
-                <section class="aboutMe">
+                <section id="About-Me" class="aboutMe">
                     <h2>About Me</h2>
                     <p>This is some text explaining about me.
                         <br>
@@ -43,40 +46,50 @@
 
                         <div class="outerCardContainer">
 
-                            <div class="card card-1">
-                                <img src="Images/rolling-waves.jpg" alt="Pitcture of card-1"/>
+                            <div id="card-1" class="card card-1">
+                                <a href="https://github.com/ncougs" target="_blank">
+                                    <img src="Images/rolling-waves.jpg" alt="Pitcture of card-1"/>
+                                </a>
                                 <div class="cardLabel">
                                     <h3>Card-1 Label</h3>
                                     <p>Card 1 text</p>           
                                 </div>
                             </div>
         
-                            <div class="card card-2">
-                                <img src="Images/rolling-waves.jpg"  alt="Picture of card-2"/>
+                            <div id="card-2" class="card card-2">
+                                <a href="https://github.com/ncougs" target="_blank">
+                                    <img src="Images/rolling-waves.jpg" alt="Pitcture of card-2"/>
+                                </a>
                                 <div class="cardLabel">
                                     <h3>Card-2 Label</h3>
                                     <p>Card 2 text</p>           
                                 </div>
                             </div>
         
-                            <div class="card card-3">
-                                <img src="Images/rolling-waves.jpg"  alt="Picture of card-3"/>
+                            <div id="card-3" class="card card-3">
+                                <a href="https://github.com/ncougs" target="_blank">
+                                    <img src="Images/rolling-waves.jpg" alt="Pitcture of card-3"/>
+                                </a>
                                 <div class="cardLabel">
                                     <h3>Card-3 Label</h3>
                                     <p>Card 3 text</p>           
                                 </div>
                             </div>
         
-                            <div class="card card-4">
-                                <img src="Images/rolling-waves.jpg"  alt="Picture of card-4"/>
+                            <div id="card-4" class="card card-4">
+                                <a href="https://github.com/ncougs" target="_blank">
+                                    <img src="Images/rolling-waves.jpg" alt="Pitcture of card-4"/>
+                                </a>
                                 <div class="cardLabel">
                                     <h3>Card-4 Label</h3>
                                     <p>Card 4 text</p>           
                                 </div>
                             </div>
         
-                            <div class="card card-5">
-                                <img src="Images/rolling-waves.jpg"  alt="Picture of card-5"/>
+                            <div id="card-5" class="card card-5">
+                                <a href="https://github.com/ncougs" target="_blank">
+                                    <img src="Images/rolling-waves.jpg" alt="Pitcture of card-5"/>
+                                </a>
                                 <div class="cardLabel">
                                     <h3>Card-5 Label</h3>
                                     <p>Card 5 text</p>           
@@ -92,16 +105,16 @@
         </main>
 
            <footer>
-                <div class="contactMe">
+                <div id="Contact-Me" class="contactMe">
                     <h2>Contact Me</h1>
                 </div>
                 <nav>
                     <ul>
-                        <li>0422289661</li>
-                        <li>email@email.com</li>
-                        <li>Github</li>
-                        <li>Twitter</li>
-                        <li>Spotify</li>
+                        <li><a href="tel:0400000000">0400000000</a></li>
+                        <li><a href="mailto:email@email.com">email@email.com</a></li>
+                        <li><a href="https://github.com/ncougs" target="_blank">Github</a></li>
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.spotify.com/au/" target="_blank">Spotify</a></li>
                     </ul>
                 </nav>
            </footer>
