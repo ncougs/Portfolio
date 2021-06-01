@@ -37,8 +37,8 @@ header nav ul {
 .outerContainer {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 30px;
 }
 
@@ -97,6 +97,9 @@ header nav ul {
     border-width: 1px;
 }
 
+.card Img:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}
 .cardLabel {
     position: relative;
     bottom: 50px;
@@ -107,19 +110,43 @@ header nav ul {
 footer {
     display: flex;
     flex-direction: row;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 20px;
 }
 
 footer nav {
     flex-grow: 1;
     width: 70%;
+    padding: 60px;
 }
 
 footer nav ul {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 992px){
+    .aboutMe, .work, footer, header, header nav ul, footer nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .work, footer{
+        border-top: 1px;
+        border-color: black;
+        border-style: solid;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .aboutMe h2, .work h2, .contactMe{
+        border-right: 0px;
+        width: 100%;
+        text-align: center;
+      }
 }
 
 
