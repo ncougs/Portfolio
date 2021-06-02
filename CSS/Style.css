@@ -92,11 +92,28 @@ a {
     text-align: end;
 }
 
-.aboutMe p {
+.righAboutMeContainer {
     flex-grow: 1;
     width: 70%;
-    line-height: 20pt;
+    display: flex;
+    flex-direction: row;
     padding-left: 20px;
+}
+
+.aboutMe .avatar {
+    width: 25%;
+    transform: translate(-21px, 3px);
+
+}
+
+.aboutMe p {
+    width: 75%;
+}
+
+.aboutMe p {
+ 
+    line-height: 20pt;
+    align-self: flex-end;
 }
 
 .outerCardContainer {
