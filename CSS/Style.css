@@ -221,12 +221,27 @@ footer a {
 }
 
 @media screen and (max-width: 992px){
-    .aboutMe h2, .work h2, .contactMe{
+    .aboutMe h2, .work h2, .contactMe, .righAboutMeContainer{
         border-right: 0px;
         width: 100%;
         text-align: center;
       }
 }
+
+@media screen and (max-width: 992px){
+    .aboutMe .avatar {
+        width: 50%;
+        transform: translate(-21px, 3px);
+    
+    }
+}
+
+@media screen and (max-width: 992px){
+    .aboutMe p {
+        width: 50%;
+    }
+}
+
 
 
 
