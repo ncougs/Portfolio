@@ -1,360 +1,67 @@
 /* Setting variables */
 :root {
-    --headingSize: 50pt;
+    /* --headingSize: 50pt;
     --headingColor: #1D2228;
-    --backgroundColour: #425664;
+    --backgroundColour: #425664; */
 }
 
 /* Universial Styling of font and scroll behaviour */
-*{
-    Font-family:'Rubik', sans-serif;
+*, nav{
+    font-family: 'Alegreya SC', serif;
     scroll-behavior: smooth;
 }
 
-/* Webpage background colour */
 body {
-    background-color: #F6F4F2;
+    background-color: #F7F7F7;
 }
 
-/* Header Settinngs until line 56 */
-header {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    align-items: center;
-    background-color: var(--backgroundColour);
-    z-index: 2;
-    Font-family:'Rubik', sans-serif;
-}
-
-header div {
-    flex-grow: 3;
-    padding-left: 30px;
-}
-
-header div a {
-    text-decoration: none;
-}
-
-header h1 {
-    font-size: var(--headingSize);
+nav a, .navbar-nav a {
     color: white;
-    font-weight: bold;
 }
 
-header nav {
-    flex-grow: 1;
-    padding-right: 60px;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-  }
-
-/* Setting a links to white and increased font size */
-a {
+#portfolio {
+    background-color: #7DA2A9;
     color: white;
-    font-size: 15pt;
 }
 
-/* Hero image settings until line 85 */
-.hero {
-    height: 400px;
-    width: 100%;
-    background-image: url("../Images/rolling-waves.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.hero p {
-    font-size: 3vw;
-    font-weight: bold;
+#my-work {
+    background-color: #141824;
     color: white;
-    background-color: var(--backgroundColour);
-    width: fit-content;
-    position: relative;
-    top: 281px;
-    margin-left: 60%;
-    padding: 10px;
 }
 
-/* Setting container for aboutme and work to be a flex dox in collumn direction */
-.outerContainer {
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-    margin-right: 200px;
-    margin-top: 30px;
+#about-me {
+    background-color: #D48166;
+    color: white;
 }
 
-.aboutMe, .work {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+#contact-me {
+    background-color: #8DB48E;
+    color: white;
 }
 
-/* Headings for aboutme, work and footer */
-.aboutMe h2, .work h2, .contactMe {
-    width: 30%;
-    padding-right: 20px;
-    border-right: 4px;
-    border-color: black;
-    border-style: solid;
-    font-size: var(--headingSize);
-    color: var(--headingColor);
-    font-weight: bold;
-    text-align: end;
-}
-
-/* Settings to ensure anchors link above 100px abouve the ID */
-.aboutMe, .work{
+section {
+    height: 100vh;
     position: relative;
 }
 
-/* Settings to ensure anchors link above 100px abouve the ID */
-#About-Me, #Work {
-    position:absolute; 
-    top:-100px;
-}
-
-/* About me settings until line 150 */
-.righAboutMeContainer {
-    flex-grow: 1;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-}
-
-.aboutMe .avatar {
-    width: 25%;
-    transform: translate(-21px, 3px);
-
-}
-
-.aboutMe p {
-    width: 75%;
-}
-
-.aboutMe p {
- 
-    line-height: 20pt;
-    align-self: flex-end;
-}
-
-/* Work cards setting flex box layout in row direction */
-.outerCardContainer {
-    flex-grow: 1;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 20px;
-}
-
-/* Card settings until line 255 */
 .card {
-    flex-grow: 1;
-    margin: 10px;
-}
-
-/* Adjusting width to ensure margin works */
-.card-1 {
-    width: 97%;
-}
-
-/* Adjusting width to ensure margin works */
-.card-2, .card-3, .card-4, .card-5 {
-    width: 47%;
-    margin-top: -50px;
-}
-
-.card Img {
-    height: auto; 
-    width: auto; 
-    max-width: 100%; 
-    max-height: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-}
-
-/* Hover of card images, make box shadow */
-.card img:hover {
-    box-shadow: inset 0px 0px 8px #1D2228, 0 0 15px #1D2228;
-}
-
-.card a {
-    text-decoration: none;
     color: black;
 }
 
-.cardLabel {
-    position: relative;
-    bottom: 80px;
-    background-color: var(--backgroundColour);
-    width: fit-content;
-    padding: 5px;
+.pageDown {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
 }
 
-.card-1 .cardLabel {
-    position: relative;
-    bottom: 100px;
-}
-
-.cardLabel h3 {
-    font-size: 18pt;
-    font-weight: bold;
-    padding-bottom: 10px;
+.bi-arrow-down-circle {
     color: white;
 }
 
-.cardLabel p {
-    font-size: 15pt;
-    color: white;
-}
-
-.card-1 .cardLabel h3 {
-    font-size: 25pt;
-    font-style: bold;
-}
-
-.card-1 .cardLabel p {
-    font-size: 18pt;
-}
-
-/* Increase font when hovered */
-.cardLabel:hover > a h3 {
-    font-size: 25pt;
-}
-/* Increase font when hovered */
-.card-1 .cardLabel:hover > a h3 {
-    font-size: 33pt;
-}
-
-/* Move labels up when hovered */
-.cardLabel:hover {
-    bottom: 100px;
-}
-
-/* Move labels up when hovered */
-.card-1 .cardLabel:hover {
-    bottom: 120px;
-}
-
-/* Footer settings, making flex box in row direction */
-footer {
-    display: flex;
-    flex-direction: row;
-    margin-left: 150px;
-    margin-right: 200px;
-    margin-top: 20px;
-    Font-family:'Rubik', sans-serif;
-    align-items: center;
-}
-
-footer nav {
-    flex-grow: 1;
-    width: 70%;
-    padding-left: 20px;
-  }
-
-footer nav ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-footer a {
-    color: #1D2228;
-}
-
-/* Adjustment to layout when width falls below 992px */
-
-/* Changing flexbox layout from row to width*/
-@media screen and (max-width: 992px){
-    .aboutMe, .work, footer, header, header nav ul, footer nav ul{
-        flex-direction: column;
-        align-items: center;
-        height: max-content;
-    }
-}
-
-/* Aligning items in the center */
-@media screen and (max-width: 992px){
-    .outerContainer, footer {
-        align-items: center;
-        margin-left: 200px;
-    }
-}
-
-/* Removing padding for layout */
-@media screen and (max-width: 992px){
-    header, header nav, footer div, footer nav {
-       padding-left: 0%;
-       padding-right: 0%;
-    }
-}
-
-/* Increase spacing between vertical links*/
-@media screen and (max-width: 992px){
-    header li, footer li{
-      padding-bottom: 10px;
-    }
-}
-
-/* Remove border from right to the top */
-@media screen and (max-width: 992px){
-    .work, footer{
-        border-top: 1px;
-        border-color: black;
-        border-style: solid;
-    }
-}
-/* Remove border from right to the top */
-@media screen and (max-width: 992px){
-    .aboutMe h2, .work h2, .contactMe, .righAboutMeContainer{
-        border-right: 0px;
-        width: 100%;
-        text-align: center;
-      }
-}
-
-/* Adjusting postioning of avatar */
-@media screen and (max-width: 992px){
-    .aboutMe .avatar {
+@media screen and (max-width: 768px) {
+    #avatar {
         width: 50%;
-        transform: translate(-21px, 3px);
-    
+        height: auto;
     }
 }
-
-/* Adjusting postioning of about me text */
-@media screen and (max-width: 992px){
-    .aboutMe p {
-        width: 50%;
-        text-align: left;
-    }
-}
-
-/* Adjusting postioning hero subtitle */
-@media screen and (max-width: 992px){
-    .hero p {
-        margin-left: 35%;
-    }
-}
-
-
-
-
-
-
-
-
 
