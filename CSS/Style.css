@@ -11,12 +11,23 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #F7F7F7;
+.navbar-light .navbar-brand {
+    color: white;
 }
 
-nav a, .navbar-nav a {
+
+.navbar-light .navbar-nav .nav-link {
     color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
 }
 
 .navbar-nav, nav .container-fluid {
@@ -59,6 +70,22 @@ section {
 }
 
 .bi-arrow-down-circle {
+    color: white;
+}
+
+#portfolio h1 {
+    font-size: 5rem;
+}
+
+#portfolio p {
+    font-size: 25px;
+}
+
+#contact-me p, #about-me p {
+    font-size: 22px;
+}
+
+#contact-me a {
     color: white;
 }
 
