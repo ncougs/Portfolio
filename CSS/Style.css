@@ -19,6 +19,10 @@ nav a, .navbar-nav a {
     color: white;
 }
 
+.navbar-nav, nav .container-fluid {
+    align-items: center;
+}
+
 #portfolio {
     background-color: #7DA2A9;
     color: white;
