@@ -1,7 +1,11 @@
 # My Portfolio
-Welcome to my portolio. 
+Welcome to my portolio. This application showcases my work and provides users with information to contact me. Feel free to get in touch!
 
-Link to deployed application: https://ncougs.github.io/Portfolio/
+## Deployed Application
+
+Link to the deployed application: https://ncougs.github.io/Portfolio/
+
+## Application Screenshots
 
 The following image shows the web application's appearance and functionality:
 
