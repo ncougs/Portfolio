@@ -1,5 +1,5 @@
 # My Portfolio
-Welcome to my portolio. This application showcases my work and provides users with information to contact me. Feel free to get in touch!
+Welcome to my portolio. This application showcases my work and provides users with information to contact me along with some other usual resources about me. Feel free to get in touch!
 
 ## Deployed Application
 
