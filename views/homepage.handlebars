@@ -5,11 +5,7 @@
         <p class="">Welcome to my Portfolio!</p>
     </div>
 
-    <div class="pageDown">
-        <a href="#about-me">
-            <i class="bi bi-arrow-down-circle" style="font-size: 2rem"></i>
-        </a>
-    </div>
+    {{> page-down section='about-me'}}
 
 </section>
 
@@ -19,7 +15,7 @@
 
     <div class="row justify-content-center">
         <div class="col-sm-7 col-md-9 col-12 d-flex justify-content-center my-2">
-            <img id="avatar" src="./Images/Avatar.png" alt="Nicholas Cougan's avatar"/>
+            <img id="avatar" src="/assets/avatar.png" alt="Nicholas Cougan's avatar"/>
         </div>
         <div class="col-sm-10 col-md-12 col-12">
             <p class="text-center">Full Stack Web Developer in training.</p>
@@ -38,12 +34,7 @@
 
     </div>
 
-    <div class="pageDown">
-        <a href="#my-work">
-            <i class="bi bi-arrow-down-circle" style="font-size: 2rem"></i>
-        </a>
-    </div>
-
+    {{> page-down section='my-work'}}
 
 </section>
 
@@ -110,12 +101,8 @@
 
     </div>
 
-    <div class="pageDown">
-        <a href="#contact-me">
-            <i class="bi bi-arrow-down-circle" style="font-size: 2rem"></i>
-        </a>
-    </div>                       
-
+    {{> page-down section='contact-me'}}
+        
 </section>
 
 <section id="contact-me" class="flex-grow-1 container-fluid d-flex flex-column justify-content-center">
