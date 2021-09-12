@@ -52,40 +52,12 @@
                 <button type="button" data-bs-target="#myWorkSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#myWorkSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                    <div class="card">
-                        <a href="https://davidszamek.github.io/puppy-pals/" target="_blank">
-                            <img src="https://user-images.githubusercontent.com/84214872/125263473-66645780-e346-11eb-8c8d-77b4a76cab19.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Pupy Pals</h5>
-                            <p class="card-text">Meet your Puppy Pals.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <div class="card">
-                        <a href="https://ncougs.github.io/Code-Quiz/" target="_blank">
-                            <img src="https://user-images.githubusercontent.com/84214872/122715734-adfa4500-d2ac-11eb-952c-57039ca04bc2.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Code Quiz</h5>
-                            <p class="card-text">Take my Code Quiz.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <div class="card">
-                        <a href="https://ncougs.github.io/Weather-Dashboard/" target="_blank">
-                            <img src="https://user-images.githubusercontent.com/84214872/124410565-1dccfd00-dd8e-11eb-9dce-cff1dee2dad8.png" class="card-img-top" alt="...">
-                        </a>             
-                        <div class="card-body">
-                            <h5 class="card-title">Weather Dashboard</h5>
-                            <p class="card-text">Check your cities Weather</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-inner">              
+                {{> carousel-item url='https://project2-memecreation.herokuapp.com/' image='https://user-images.githubusercontent.com/84214872/132187681-bf57826a-7b3a-4956-8c91-71a23cfe2d89.png' title='Meme Creation' description='Social Platform to create and share Memes.' active='active'}}
+
+                {{> carousel-item url='https://tech-blog-cms.herokuapp.com/' image='https://user-images.githubusercontent.com/84214872/131430156-7dbf9d59-cff6-41e8-bab1-0675d560e25b.png' title='Tech Blog' description='Social Platform create and share blog posts.'}}
+
+                {{> carousel-item url='https://github.com/ncougs/Employee-Tracker' image='https://user-images.githubusercontent.com/84214872/129541860-3dee1d6a-88f6-489e-b06d-3b77fa172fa8.gif' title='Employee Trackers' description='Node.js application to manage employees within your business.'}}
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myWorkSlides" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
