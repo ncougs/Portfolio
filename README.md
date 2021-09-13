@@ -16,3 +16,40 @@ The following image shows the web application's appearance and functionality:
 ![image](https://user-images.githubusercontent.com/84214872/133065355-ce94dbee-cf7c-4c9b-9dfe-6989fe926f95.png)
 
 ![image](https://user-images.githubusercontent.com/84214872/133065419-62e3714b-d826-4511-8800-85e020824718.png)
+
+## Technologies Used
+* Express.js
+* node.js
+* HTML/CSS/JavaScript
+* Bootsrap
+* Node Mailer
+
+## Questions
+
+For any questions, please reach out to the author below: 
+
+* Nicholas Cougan
+* https://github.com/ncougs
+* ncougan@gmail.com
+
+## License
+
+Copyright (c) 2021 Nicholas Cougan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
