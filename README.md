@@ -21,7 +21,7 @@ The following image shows the web application's appearance and functionality:
 * Express.js
 * node.js
 * HTML/CSS/JavaScript
-* Bootsrap
+* Bootstrap
 * Node Mailer
 
 ## Questions
