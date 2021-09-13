@@ -89,6 +89,14 @@ section {
     color: white;
 }
 
+.w-max-content {
+    width: max-content;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
 @media screen and (max-width: 768px) {
     #avatar {
         width: 50%;

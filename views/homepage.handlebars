@@ -22,17 +22,27 @@
             <p class="text-center">Currently completing Monash Unversities Coding Boot Camp.</p>
             <p class="text-center">Experience in:</p>
         </div>
-        <div class="col-sm-3 col-md-5 col-12">
-            <ul>
-                <li><i class="bi bi-file-code" style="font-size: 2rem; vertical-align: middle"></i>HTML</li>
-                <li><i class="bi bi-file-code" style="font-size: 2rem; vertical-align: middle"></i>CSS</li>
-                <li><i class="bi bi-file-code" style="font-size: 2rem; vertical-align: middle"></i>JavaScript</li>
-                <li><i class="bi bi-file-code" style="font-size: 2rem; vertical-align: middle"></i>API's</li>
-                <li><i class="bi bi-file-code" style="font-size: 2rem; vertical-align: middle"></i>Node.js</li>
-            </ul>
+        <div class="col-sm-3 col-md-5 col-12 container">
+            <div class="row">
+                {{> skill-item skill='HTML'}}
+                {{> skill-item skill='CSS'}}
+                {{> skill-item skill='JavaScript'}}
+                {{> skill-item skill='API'}}
+                {{> skill-item skill='Node.js'}}
+                {{> skill-item skill='Express.js'}}
+                {{> skill-item skill='SQL'}}
+                {{> skill-item skill='MVC'}}
+            </div>           
         </div>
-
-    </div>
+{{!-- 
+{{> skill-item skill='HTML'}}
+{{> skill-item skill='CSS'}}
+{{> skill-item skill='JavaScript'}}
+{{> skill-item skill='API'}}
+{{> skill-item skill='Node.js'}}
+{{> skill-item skill='Express.js'}}
+{{> skill-item skill='SQL'}}
+{{> skill-item skill='MVC'}} --}}
 
     {{> page-down section='my-work'}}
 
@@ -60,11 +70,11 @@
                 {{> carousel-item url='https://github.com/ncougs/Employee-Tracker' image='https://user-images.githubusercontent.com/84214872/129541860-3dee1d6a-88f6-489e-b06d-3b77fa172fa8.gif' title='Employee Trackers' description='Node.js application to manage employees within your business.'}}
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myWorkSlides" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="bi bi-arrow-left-square-fill" style="font-size: 2rem; color:cornflowerblue" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#myWorkSlides" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="bi bi-arrow-right-square-fill" style="font-size: 2rem; color:cornflowerblue" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
