@@ -93,28 +93,38 @@
                 </a>
             </div>
             <div class="col-lg-6 col-sm-12">
-                <form id="contact-form">
+                <form id="contact-form" class="needs-validation">
                     <h3 class="h3">Or send me a message</h3>
 
                     <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Harry Potter">
+                        <label for="name" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Harry Potter" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea type="text" class="form-control" id="message" rows="3"></textarea>
+                        <textarea type="text" class="form-control" id="message" rows="3" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">contact Me</button>
+                    <button id="form-submit" class="btn btn-primary"type="submit" class="btn btn-primary">contact Me</button>
                 </form>
             </div>
         </div>
 
     </div>
 
+<div class="toast align-items-center text-white bg-primary border-0 position-fixed bottom-0 end-0 p-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Thank you for your enquiry, I will respond your email message shortly!
+    </div>
+    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
+
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="module" src="/js/handle-form.js"></script>
