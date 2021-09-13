@@ -9,8 +9,8 @@ router.post('/', async (req, res) => {
       if (email, name, message) {
         const emailResponse = `Hi ${name}, thank you for message. I will respond shortly.
 
-        Message details:     
-        ${message}.`;
+Message details:     
+${message}.`;
         
               const mailOptions = {
                 from: 'ncougan@gmail.com',
