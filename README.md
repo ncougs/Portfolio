@@ -3,7 +3,7 @@ Welcome to my portolio. This application showcases my work and provides users wi
 
 ## Deployed Application
 
-Link to the deployed application: https://ncougs.github.io/Portfolio/
+Link to the deployed application: https://nicholas-cougan-portfolio.herokuapp.com/
 
 ## Application Screenshots
 
@@ -11,9 +11,8 @@ The following image shows the web application's appearance and functionality:
 
 ![image](https://user-images.githubusercontent.com/84214872/126129718-1d01ac17-9d19-4bad-9103-38f115e92ab9.png)
 
-![image](https://user-images.githubusercontent.com/84214872/126129785-582c832a-f9cb-44ab-b6ff-33c03cb5f5b5.png)
+![image](https://user-images.githubusercontent.com/84214872/133065293-798a4b07-f5cc-426b-9eac-cbe25aad8457.png)
 
-![image](https://user-images.githubusercontent.com/84214872/126129866-803a5b54-c1bc-43cf-bc29-caa36ef957ca.png)
+![image](https://user-images.githubusercontent.com/84214872/133065355-ce94dbee-cf7c-4c9b-9dfe-6989fe926f95.png)
 
-
-
+![image](https://user-images.githubusercontent.com/84214872/133065419-62e3714b-d826-4511-8800-85e020824718.png)
